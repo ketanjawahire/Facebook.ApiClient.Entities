@@ -1,0 +1,6 @@
+language: csharp
+solution: "./Facebook.ApiClient.Entities.sln"
+install:
+- travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./Facebook.ApiClient.Entities.sln
+script:
+- msbuild ./Facebook.ApiClient.Entities.sln /t:Rebuild /p:Configuration=Release /detailedsummary /v:n
