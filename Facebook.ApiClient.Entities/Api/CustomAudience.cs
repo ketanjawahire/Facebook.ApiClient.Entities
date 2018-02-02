@@ -1,14 +1,9 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FacebookApi.Entities.Api;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// Build an audience of your customers, website visitors, mobile app visitors or people similar to them.

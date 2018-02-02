@@ -1,8 +1,7 @@
-using FacebookApi.Entities.Api;
 using Newtonsoft.Json;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// Delivery checks are a set of tests which can help find out potential issues related to ad delivery.

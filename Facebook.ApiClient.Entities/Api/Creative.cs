@@ -1,13 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using FacebookApi.Entities.Api;
-using FacebookApi.Entities.Enumerations;
+using Facebook.ApiClient.Entities.Enumerations;
 using Newtonsoft.Json;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// An ad creative object is an instance of a specific creative which is being used to define the <see cref="Ad.Creative"/> field of one or more <see cref="Ad"/>s.

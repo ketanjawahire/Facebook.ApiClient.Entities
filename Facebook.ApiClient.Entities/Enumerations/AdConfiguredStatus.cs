@@ -1,4 +1,4 @@
-﻿namespace FacebookApi.Entities.Enumerations
+﻿namespace Facebook.ApiClient.Entities.Enumerations
 {
     /// <summary>
     /// The configured status of the ad. The field returns the same value as 'configured_status', and is the suggested one to use.

@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using FacebookApi.Entities.Api;
-using FacebookApi.Entities.Enumerations;
+using Facebook.ApiClient.Entities.Enumerations;
 using Newtonsoft.Json;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// An ad object contains the data necessary to visually display an ad and associate it with a corresponding ad set.

@@ -1,9 +1,7 @@
-using System.Collections.Generic;
-using FacebookApi.Entities.Api;
 using Newtonsoft.Json;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// The specifications of template links to create dynamic ad creatives using web, ios, android etc. templates

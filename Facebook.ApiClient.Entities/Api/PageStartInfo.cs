@@ -1,8 +1,7 @@
-using FacebookApi.Entities.Api;
 using Newtonsoft.Json;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// Information about when a business was started that's represented by a Facebook Page

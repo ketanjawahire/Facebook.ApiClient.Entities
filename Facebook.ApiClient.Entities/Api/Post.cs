@@ -1,10 +1,9 @@
 using System;
-using FacebookApi.Entities.Api;
-using FacebookApi.Entities.Enumerations;
+using Facebook.ApiClient.Entities.Enumerations;
 using Newtonsoft.Json;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// An individual entry in a profile's feed. The profile could be a user, page, app, or group.

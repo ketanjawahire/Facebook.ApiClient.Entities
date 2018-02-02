@@ -1,4 +1,4 @@
-﻿namespace FacebookApi.Entities.Enumerations
+﻿namespace Facebook.ApiClient.Entities.Enumerations
 {
     /// <summary>
     /// The style of the attachment.

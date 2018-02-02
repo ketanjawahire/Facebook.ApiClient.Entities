@@ -1,4 +1,4 @@
-﻿namespace FacebookApi.Entities.Enumerations
+﻿namespace Facebook.ApiClient.Entities.Enumerations
 {
     /// <summary>
     /// The status set at the ad set level. It can be different from the effective status due to its parent campaign. 

@@ -1,4 +1,4 @@
-﻿namespace FacebookApi.Entities.Enumerations
+﻿namespace Facebook.ApiClient.Entities.Enumerations
 {
     /// <summary>
     /// The billing event that this adset is using

@@ -1,4 +1,4 @@
-﻿namespace FacebookApi.Entities.Enumerations
+﻿namespace Facebook.ApiClient.Entities.Enumerations
 {
     /// <summary>
     /// Indicator of how reliable recommendation is

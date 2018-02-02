@@ -1,6 +1,4 @@
-using FacebookApi.Entities.Api;
-
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// Targeting specs are used as part of ad sets to define the type of person the ad will be displayed to.

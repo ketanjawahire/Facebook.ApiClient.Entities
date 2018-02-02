@@ -1,4 +1,6 @@
-﻿namespace FacebookApi.Entities.Enumerations
+﻿using Facebook.ApiClient.Entities.Api;
+
+namespace Facebook.ApiClient.Entities.Enumerations
 {
 
     /// <summary>

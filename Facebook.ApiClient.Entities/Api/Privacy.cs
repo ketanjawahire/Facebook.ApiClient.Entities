@@ -1,8 +1,7 @@
-using FacebookApi.Entities.Api;
 using Newtonsoft.Json;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// The Privacy node is returned as part of a number of different types of nodes as a privacy field.

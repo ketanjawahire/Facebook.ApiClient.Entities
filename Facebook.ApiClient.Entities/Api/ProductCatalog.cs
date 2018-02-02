@@ -1,10 +1,7 @@
-﻿using System.Collections.Generic;
-using FacebookApi.Entities.Api;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// Represents a catalog for your business you can use to deliver ads with Dynamic Ads.

@@ -1,8 +1,7 @@
-using FacebookApi.Entities.Api;
 using Newtonsoft.Json;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// Image transformation settings object to customize how items from the catalog would look like in different dynamic ad formats.

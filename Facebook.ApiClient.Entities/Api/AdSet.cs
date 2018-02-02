@@ -1,12 +1,10 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using FacebookApi.Entities.Api;
-using FacebookApi.Entities.Enumerations;
+using Facebook.ApiClient.Entities.Enumerations;
 using Newtonsoft.Json;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// An ad set is a group of ads that share the same daily or lifetime budget, schedule, bid type, bid info, and targeting data. 
@@ -294,7 +292,7 @@ namespace FacebookApi.Entities
         /// </summary>
         /// <example>
         /// For example a 3-day <see cref="Campaign"/> from May 9 12am to May 11 11:59PM PST can have three date ranges, the first date range starts from May 9 12:00AM to May 9 11:59PM, second date range starts from May 10 12:00AM to May 10 11:59PM and last starts from May 11 12:00AM to May 11 11:59PM. The first timestamp should match the <see cref="Campaign"/> start time. 
-        /// The last timestamp should be at least 1 hour before the <see cref="Entities.Campaign.StopTime"/>. You must provide at least two date ranges. All date ranges must cover the whole campaign length, so any date range cannot exceed campaign length. Use with time_based_ad_rotation_id_blocks to specify <see cref="Creative"/> for each date range.
+        /// The last timestamp should be at least 1 hour before the <see cref="Api.Campaign.StopTime"/>. You must provide at least two date ranges. All date ranges must cover the whole campaign length, so any date range cannot exceed campaign length. Use with time_based_ad_rotation_id_blocks to specify <see cref="Creative"/> for each date range.
         /// </example>
         [DeserializeAs(Name = "time_based_ad_rotation_intervals")]
         [JsonProperty(PropertyName = "time_based_ad_rotation_intervals", ReferenceLoopHandling = ReferenceLoopHandling.Serialize, DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore, ObjectCreationHandling = ObjectCreationHandling.Auto)]

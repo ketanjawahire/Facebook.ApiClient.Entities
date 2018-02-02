@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities.Api
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// Represents leadgen form question options

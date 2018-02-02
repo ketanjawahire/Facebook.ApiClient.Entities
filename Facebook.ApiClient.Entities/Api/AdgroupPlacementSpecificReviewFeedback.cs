@@ -1,9 +1,8 @@
 using System.Collections.Generic;
-using FacebookApi.Entities.Api;
 using Newtonsoft.Json;
 using RestSharp.Deserializers;
 
-namespace FacebookApi.Entities
+namespace Facebook.ApiClient.Entities.Api
 {
     /// <summary>
     /// The review feedback of an ad for each platform, such as facebook or instagram.
