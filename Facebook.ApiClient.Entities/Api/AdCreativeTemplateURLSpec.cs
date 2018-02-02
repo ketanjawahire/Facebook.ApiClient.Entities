@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// The specifications of template links to create dynamic ad creatives using web, ios, android etc. templates
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-creative-template-url-spec/</para>

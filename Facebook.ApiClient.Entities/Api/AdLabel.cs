@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// An AdLabel
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-label/</para>

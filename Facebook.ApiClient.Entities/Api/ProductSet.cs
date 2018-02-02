@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// A Product Set is a set of products in a Product Catalog that you advertise in a dynamic ad
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/product-set</para>

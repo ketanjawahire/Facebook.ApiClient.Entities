@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// A cover photo for objects in the Graph API. Cover photos are used with Events, Groups, Pages and People
     /// <para>https://developers.facebook.com/docs/graph-api/reference/cover-photo/</para>

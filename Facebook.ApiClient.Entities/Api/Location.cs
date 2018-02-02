@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Location node used with other objects in the Graph API.
     /// <para>https://developers.facebook.com/docs/graph-api/reference/location/</para>

@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// The media that is used on a Facebook placement. The media specified here replaces the media orginally defined in the ad creative when the ad displays in an associated placement.
     /// </summary>

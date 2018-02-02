@@ -5,6 +5,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// An ad account group allows managing user access to multiple Facebook ad accounts as a single unit.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-account-group/</para>

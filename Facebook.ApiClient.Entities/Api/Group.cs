@@ -5,6 +5,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Represents a Facebook group. 
     /// <para>https://developers.facebook.com/docs/graph-api/reference/v2.5/group</para>

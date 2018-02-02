@@ -6,8 +6,9 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
-    /// An ad creative object is an instance of a specific creative which is being used to define the <see cref="Ad.Creative"/> field of one or more <see cref="Ad"/>s.
+    /// An ad creative object is an instance of a specific creative which is being used to define the <see cref="P:Facebook.ApiClient.Entities.Api.Ad.Creative" /> field of one or more <see cref="T:Facebook.ApiClient.Entities.Api.Ad" />s.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-creative/</para>
     /// </summary>
     public class Creative : BaseEntity

@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Native deeplink data for a link ad.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-creative-link-data-app-link-spec/</para>

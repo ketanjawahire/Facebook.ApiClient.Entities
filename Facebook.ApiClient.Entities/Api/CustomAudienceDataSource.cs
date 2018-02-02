@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// JSON dictionary of type, sub_type to indicate by which method the custom audience was created.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/custom-audience-data-source/</para>

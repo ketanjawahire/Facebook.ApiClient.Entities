@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Parking options for a Page.
     /// <para>https://developers.facebook.com/docs/graph-api/reference/page-parking/</para>

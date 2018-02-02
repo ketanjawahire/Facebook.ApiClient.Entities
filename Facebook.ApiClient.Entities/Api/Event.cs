@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Represents a Facebook event.
     /// <para>https://developers.facebook.com/docs/graph-api/reference/event/</para>

@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Represents a catalog for your business you can use to deliver ads with Dynamic Ads.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/product-catalog/</para>

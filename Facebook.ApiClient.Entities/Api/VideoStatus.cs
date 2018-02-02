@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Status attributes of video
     /// <para>https://developers.facebook.com/docs/graph-api/reference/video-status/</para>

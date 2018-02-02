@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Social context for Graph API objects.
     /// <para>https://developers.facebook.com/docs/graph-api/reference/open-graph-context/</para>

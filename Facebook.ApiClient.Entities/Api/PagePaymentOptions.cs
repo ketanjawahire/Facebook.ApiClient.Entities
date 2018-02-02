@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Page payment options in the Graph API.
     /// <para>https://developers.facebook.com/docs/graph-api/reference/page-payment-options/</para>

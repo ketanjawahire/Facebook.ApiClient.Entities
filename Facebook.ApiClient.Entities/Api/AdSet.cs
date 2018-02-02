@@ -6,6 +6,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// An ad set is a group of ads that share the same daily or lifetime budget, schedule, bid type, bid info, and targeting data. 
     /// <para>Ad sets enable you to group ads according to your criteria, and you can retrieve the ad-related statistics that apply to a set. </para>

@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// The Privacy node is returned as part of a number of different types of nodes as a privacy field.
     /// <para>https://developers.facebook.com/docs/graph-api/reference/privacy/</para>

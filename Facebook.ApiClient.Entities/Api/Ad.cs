@@ -6,6 +6,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// An ad object contains the data necessary to visually display an ad and associate it with a corresponding ad set.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/adgroup</para>

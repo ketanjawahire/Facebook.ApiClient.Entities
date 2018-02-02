@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Specialties of a restaurant that is represented by a Facebook Page
     /// <para>https://developers.facebook.com/docs/graph-api/reference/page-restaurant-specialties/</para>

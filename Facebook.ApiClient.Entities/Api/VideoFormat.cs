@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// A Video Format
     /// <para>https://developers.facebook.com/docs/graph-api/reference/video-format/</para>

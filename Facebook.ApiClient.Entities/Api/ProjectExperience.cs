@@ -5,6 +5,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Information about a project experience
     /// <para>https://developers.facebook.com/docs/graph-api/reference/project-experience/</para>

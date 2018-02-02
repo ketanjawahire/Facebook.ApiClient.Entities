@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Data defining the call to action for a link or video ad.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-creative-link-data-call-to-action/</para>

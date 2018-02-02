@@ -7,6 +7,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Ad Campaign
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-campaign-group</para>

@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Reach and Frequency Spec
     /// <para>https://developers.facebook.com/docs/marketing-api/reachandfrequency/v2.5</para>

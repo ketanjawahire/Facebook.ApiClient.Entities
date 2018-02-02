@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Information about when a business was started that's represented by a Facebook Page
     /// <para>https://developers.facebook.com/docs/graph-api/reference/page-start-info/</para>

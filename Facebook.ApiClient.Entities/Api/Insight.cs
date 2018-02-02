@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// This insights edge provides a single, consistent interface to retrieve an ad's statistics.
     /// <para>https://developers.facebook.com/docs/marketing-api/insights/</para>

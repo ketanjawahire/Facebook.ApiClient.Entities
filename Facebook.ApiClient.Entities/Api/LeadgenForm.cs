@@ -5,6 +5,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Represents page leadgen form
     /// <para>https://developers.facebook.com/docs/graph-api/reference/page/leadgen_forms/</para>

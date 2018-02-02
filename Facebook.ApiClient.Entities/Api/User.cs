@@ -5,6 +5,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// A user represents a person on Facebook.
     /// <para>https://developers.facebook.com/docs/graph-api/reference/user/</para>

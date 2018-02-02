@@ -5,6 +5,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Link Data is one field within the creative that is used to create link ads.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-creative-link-data/</para>

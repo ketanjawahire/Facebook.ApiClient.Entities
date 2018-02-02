@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// App Links is an open omni-channel solution for deep linking to content in your mobile app
     /// <para>https://developers.facebook.com/docs/graph-api/reference/app-links/</para>

@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Business Manager
     /// <para>https://developers.facebook.com/docs/marketing-api/businessmanager/</para>

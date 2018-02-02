@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Lookalike spec and origin
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/lookalike-spec/</para>

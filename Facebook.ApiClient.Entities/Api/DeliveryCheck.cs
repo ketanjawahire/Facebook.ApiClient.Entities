@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Delivery checks are a set of tests which can help find out potential issues related to ad delivery.
     /// <para>https://developers.facebook.com/docs/marketing-api/adgroup/deliverychecks/v2.5</para>

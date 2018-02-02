@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Facebook place
     /// <para>https://developers.facebook.com/docs/graph-api/reference/place/</para>

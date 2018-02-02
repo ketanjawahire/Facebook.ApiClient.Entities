@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Represents leadgen form dependent conditional questions
     /// <para>https://developers.facebook.com/docs/graph-api/reference/page/leadgen_forms/</para>

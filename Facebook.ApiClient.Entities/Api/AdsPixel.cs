@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// A Facebook pixel is a small piece of JavaScript code that an advertiser places on every page of their website. 
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ads-pixel/</para>

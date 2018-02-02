@@ -5,6 +5,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// An individual entry in a profile's feed. The profile could be a user, page, app, or group.
     /// <para>https://developers.facebook.com/docs/graph-api/reference/v2.5/post</para>

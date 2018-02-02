@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 namespace Facebook.ApiClient.Entities.Api
 {
 
+    /// <inheritdoc />
     /// <summary>
     /// The call to action type used in any Page posts for mobile app engagement ads.
     /// </summary>

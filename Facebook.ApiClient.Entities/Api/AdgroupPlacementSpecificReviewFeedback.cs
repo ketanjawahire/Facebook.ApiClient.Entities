@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// The review feedback of an ad for each platform, such as facebook or instagram.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/adgroup-placement-specific-review-feedback/</para>

@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// An app link on the iOS platform.
     /// <para>https://developers.facebook.com/docs/graph-api/reference/ios-app-link/</para>

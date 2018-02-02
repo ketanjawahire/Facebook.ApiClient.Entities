@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Image crops specification, in the format of [[{left},{top}],[{right},{bottom}]]
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ads-image-crops/</para>

@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// The specification for iOS template spec.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-creative-ios-data/</para>

@@ -6,6 +6,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// An account used to manage ads on Facebook.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-account/</para>

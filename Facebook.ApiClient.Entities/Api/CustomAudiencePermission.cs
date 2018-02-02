@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Permissions for the custom audience based on viewer
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/custom-audience-permission/</para>

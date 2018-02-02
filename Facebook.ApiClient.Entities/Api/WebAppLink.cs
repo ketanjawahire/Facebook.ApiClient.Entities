@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// The web metadata for an app link
     /// <para>https://developers.facebook.com/docs/graph-api/reference/web-app-link/</para>

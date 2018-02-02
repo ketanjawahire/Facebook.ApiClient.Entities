@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Image transformation settings object to customize how items from the catalog would look like in different dynamic ad formats.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/product-catalog-image-settings/</para>

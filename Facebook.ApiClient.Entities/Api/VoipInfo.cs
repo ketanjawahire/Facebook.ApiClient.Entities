@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Information about a person's VOIP status
     /// <para>https://developers.facebook.com/docs/graph-api/reference/voip-info/</para>

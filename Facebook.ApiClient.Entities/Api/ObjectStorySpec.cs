@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// The specifications of a creative containing the page id and other content to create a new unpublished page post specified using one of link_data, photo_data, video_data, offer_data , text_data or template_data.
     /// </summary>

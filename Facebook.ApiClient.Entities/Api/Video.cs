@@ -5,6 +5,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Represents an individual video on Facebook.
     /// <para>https://developers.facebook.com/docs/graph-api/reference/video/</para>

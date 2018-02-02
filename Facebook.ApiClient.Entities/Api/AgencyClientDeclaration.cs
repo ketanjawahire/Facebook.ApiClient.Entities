@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Agency Client Declaration
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-account/agency-client-declaration/</para>

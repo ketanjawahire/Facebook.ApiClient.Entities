@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Leadgen form context card
     /// <para>https://developers.facebook.com/docs/graph-api/reference/page/leadgen_context_cards/</para>

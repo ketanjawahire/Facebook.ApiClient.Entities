@@ -5,6 +5,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Build an audience of your customers, website visitors, mobile app visitors or people similar to them.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/custom-audience/</para>

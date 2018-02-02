@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Ad Action stats
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ads-action-stats/</para>

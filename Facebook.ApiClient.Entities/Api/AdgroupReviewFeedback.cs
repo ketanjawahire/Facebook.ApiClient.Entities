@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// The review feedback for the ad after it is reviewed.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/adgroup-review-feedback/</para>

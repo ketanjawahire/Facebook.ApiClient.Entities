@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// An User of an Ad Account Group
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-account-group-users/</para>

@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Custom Audience status in code and description format
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/custom-audience-status/</para>

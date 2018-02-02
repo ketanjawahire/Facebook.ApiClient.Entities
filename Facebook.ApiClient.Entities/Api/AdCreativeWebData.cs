@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// The specification for Web template spec.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-creative-web-data/</para>

@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// A recommendation object that suggests potential improvements around the ad object's configuration.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-recommendation/</para>

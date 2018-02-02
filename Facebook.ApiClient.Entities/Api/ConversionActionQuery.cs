@@ -4,6 +4,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Conversion Action Query
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/conversion-action-query/</para>

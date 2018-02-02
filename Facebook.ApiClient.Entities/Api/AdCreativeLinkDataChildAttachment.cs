@@ -3,6 +3,7 @@ using RestSharp.Deserializers;
 
 namespace Facebook.ApiClient.Entities.Api
 {
+    /// <inheritdoc />
     /// <summary>
     /// Data defining a child attachment associated with a link ad, used for Carousel ads.
     /// <para>https://developers.facebook.com/docs/marketing-api/reference/ad-creative-link-data-child-attachment/</para>
