@@ -6,4 +6,4 @@ mono: none
 dotnet: 2.0.0 
 script:
 - dotnet restore ./Facebook.ApiClient.Entities/Facebook.ApiClient.Entities.csproj
-- dotnet build ./Facebook.ApiClient.Entities/Facebook.ApiClient.Entities.csproj /t:Rebuild /p:Configuration=Release /detailedsummary /v:n
+- dotnet build ./Facebook.ApiClient.Entities/Facebook.ApiClient.Entities.csproj -c Release -v normal -f netstandard2.0 --force
