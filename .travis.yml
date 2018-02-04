@@ -1,6 +1,5 @@
 language: csharp
 solution: "./Facebook.ApiClient.Entities.sln"
-install:
-- travis_retry dotnet restore ./Facebook.ApiClient.Entities/Facebook.ApiClient.Entities.csproj
 script:
+- dotnet restore ./Facebook.ApiClient.Entities/Facebook.ApiClient.Entities.csproj
 - dotnet build ./Facebook.ApiClient.Entities/Facebook.ApiClient.Entities.csproj /t:Rebuild /p:Configuration=Release /detailedsummary /v:n
