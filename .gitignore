@@ -1,0 +1,5 @@
+.vs/
+_ReSharper.Caches/
+Facebook.ApiClient.Entities/bin/
+Facebook.ApiClient.Entities/obj/
+*.user
