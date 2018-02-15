@@ -29,7 +29,7 @@ namespace Facebook.ApiClient.Entities.Api
         [JsonProperty(PropertyName = "account_groups", ReferenceLoopHandling = ReferenceLoopHandling.Serialize,
             DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore,
             ObjectCreationHandling = ObjectCreationHandling.Auto)]
-        public IList<AdAccountGroupResult> AccountGroups { get; set; }
+        public List<AdAccountGroupResult> AccountGroups { get; set; }
 
         /// <summary>
         /// The ID of the ad account
@@ -182,7 +182,7 @@ namespace Facebook.ApiClient.Entities.Api
         [JsonProperty(PropertyName = "capabilities", ReferenceLoopHandling = ReferenceLoopHandling.Serialize,
             DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore,
             ObjectCreationHandling = ObjectCreationHandling.Auto)]
-        public IList<string> Capabilities { get; set; }
+        public List<string> Capabilities { get; set; }
 
         /// <summary>
         /// The time the account was created in ISO 8601 format.
@@ -236,7 +236,7 @@ namespace Facebook.ApiClient.Entities.Api
         [JsonProperty(PropertyName = "failed_delivery_checks", ReferenceLoopHandling = ReferenceLoopHandling.Serialize,
             DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore,
             ObjectCreationHandling = ObjectCreationHandling.Auto)]
-        public IList<DeliveryCheck> FailedDeliveryChecks { get; set; }
+        public List<DeliveryCheck> FailedDeliveryChecks { get; set; }
 
         /// <summary>
         /// ID of the payment method.
@@ -326,7 +326,7 @@ namespace Facebook.ApiClient.Entities.Api
         [JsonProperty(PropertyName = "line_numbers", ReferenceLoopHandling = ReferenceLoopHandling.Serialize,
             DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore,
             ObjectCreationHandling = ObjectCreationHandling.Auto)]
-        public IList<int> LineNumbers { get; set; }
+        public List<int> LineNumbers { get; set; }
 
         /// <summary>
         /// The ID of a Facebook Page or Facebook Application
@@ -488,7 +488,7 @@ namespace Facebook.ApiClient.Entities.Api
         [JsonProperty(PropertyName = "tos_accepted", ReferenceLoopHandling = ReferenceLoopHandling.Serialize,
             DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore,
             ObjectCreationHandling = ObjectCreationHandling.Auto)]
-        public IDictionary<string,int> TOSAccepted { get; set; }
+        public Dictionary<string,int> TOSAccepted { get; set; }
 
         /// <summary>
         /// Role ID of the user
@@ -497,7 +497,7 @@ namespace Facebook.ApiClient.Entities.Api
         [JsonProperty(PropertyName = "user_role", ReferenceLoopHandling = ReferenceLoopHandling.Serialize,
             DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore,
             ObjectCreationHandling = ObjectCreationHandling.Auto)]
-        public int UserRole { get; set; }
+        public string UserRole { get; set; }
 
         /// <summary>
         /// Vertical name

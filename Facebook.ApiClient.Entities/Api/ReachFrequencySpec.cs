@@ -16,7 +16,7 @@ namespace Facebook.ApiClient.Entities.Api
         /// </summary>
         [DeserializeAs(Name = "countries")]
         [JsonProperty(PropertyName = "countries", ReferenceLoopHandling = ReferenceLoopHandling.Serialize, DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore, ObjectCreationHandling = ObjectCreationHandling.Auto)]
-        public IList<string> Countries { get; set; }
+        public List<string> Countries { get; set; }
 
         /// <summary>
         /// Minimum campaign duration (in days) map for each of the supported countries
