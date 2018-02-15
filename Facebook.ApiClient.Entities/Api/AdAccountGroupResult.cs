@@ -37,7 +37,7 @@ namespace Facebook.ApiClient.Entities.Api
         [JsonProperty(PropertyName = "accounts", ReferenceLoopHandling = ReferenceLoopHandling.Serialize,
             DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore,
             ObjectCreationHandling = ObjectCreationHandling.Auto)]
-        public IList<AdAccount> Accounts { get; set; }
+        public List<AdAccount> Accounts { get; set; }
         
         /// <summary>
         /// Name for the account group.
@@ -64,6 +64,6 @@ namespace Facebook.ApiClient.Entities.Api
         [JsonProperty(PropertyName = "users", ReferenceLoopHandling = ReferenceLoopHandling.Serialize,
             DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore,
             ObjectCreationHandling = ObjectCreationHandling.Auto)]
-        public IList<AdAccountGroupUsers> AdAccountGroupUsers { get; set; }
+        public List<AdAccountGroupUsers> AdAccountGroupUsers { get; set; }
     }
 }
