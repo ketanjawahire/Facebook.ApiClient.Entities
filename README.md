@@ -1,4 +1,4 @@
-# Facebook.ApiClient.Entities [![Build Status](https://travis-ci.org/ketanjawahire/Facebook.ApiClient.Entities.svg?branch=development)](https://travis-ci.org/ketanjawahire/Facebook.ApiClient.Entities)
+# Facebook.ApiClient.Entities [![Build Status](https://travis-ci.org/ketanjawahire/Facebook.ApiClient.Entities.svg?branch=master)](https://travis-ci.org/ketanjawahire/Facebook.ApiClient.Entities)
 
 C# class representation of Facebook marketing API entities.
 
