@@ -89,7 +89,7 @@ namespace Facebook.ApiClient.Entities.Api
         [JsonProperty(PropertyName = "name", ReferenceLoopHandling = ReferenceLoopHandling.Serialize,
             DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore,
             ObjectCreationHandling = ObjectCreationHandling.Auto)]
-        public int Name { get; set; }
+        public string Name { get; set; }
 
         /// <summary>
         /// The total number of products in a catalog.
