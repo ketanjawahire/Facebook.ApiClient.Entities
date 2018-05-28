@@ -80,6 +80,24 @@
         /// </summary>
         VIDEO_VIEWS,
 
+        /// <summary>
+        /// STORE_VISITS
+        /// </summary>
+        STORE_VISITS,
 
+        /// <summary>
+        /// NONE
+        /// </summary>
+        NONE,
+
+        /// <summary>
+        /// BRAND_AWARENESS
+        /// </summary>
+        BRAND_AWARENESS,
+
+        /// <summary>
+        /// APP_INSTALLS
+        /// </summary>
+        APP_INSTALLS
     }
 }
