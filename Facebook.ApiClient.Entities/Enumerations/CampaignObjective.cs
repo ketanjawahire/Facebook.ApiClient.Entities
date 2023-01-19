@@ -61,6 +61,21 @@
         OFFER_CLAIMS,
 
         /// <summary>
+        /// OUTCOME_AWARENESS
+        /// </summary>
+        OUTCOME_AWARENESS,
+
+        /// <summary>
+        /// OUTCOME_LEADS
+        /// </summary>
+        OUTCOME_LEADS,
+
+        /// <summary>
+        /// OUTCOME_TRAFFIC
+        /// </summary>
+        OUTCOME_TRAFFIC,
+
+        /// <summary>
         /// PAGE_LIKES
         /// </summary>
         PAGE_LIKES,

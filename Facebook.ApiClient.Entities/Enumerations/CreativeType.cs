@@ -58,6 +58,16 @@
         /// <summary>
         /// when an invalid object_id was specified such as a deleted object or if you do not have permission to see the object. In very few cases, this field may be empty if Facebook is unable to identify the type of advertised object
         /// </summary>
-        INVALID
+        INVALID,
+
+        /// <summary>
+        /// Privacy check fail
+        /// </summary>
+        PRIVACY_CHECK_FAIL,
+
+        /// <summary>
+        /// Post deleted
+        /// </summary>
+        POST_DELETED
     }
 }

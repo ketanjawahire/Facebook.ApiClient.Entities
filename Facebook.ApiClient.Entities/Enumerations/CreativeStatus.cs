@@ -15,6 +15,11 @@
         /// </summary>
         DELETED,
 
+        /// <summary>
+        /// WITH_ISSUES
+        /// </summary>
+        WITH_ISSUES,
 
-    }
+
+  }
 }

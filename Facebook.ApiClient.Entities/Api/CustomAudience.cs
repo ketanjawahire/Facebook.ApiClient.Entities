@@ -26,12 +26,26 @@ namespace Facebook.ApiClient.Entities.Api
         [JsonProperty(PropertyName = "account_id", ReferenceLoopHandling = ReferenceLoopHandling.Serialize, DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore, ObjectCreationHandling = ObjectCreationHandling.Auto)]
         public long? AccountId { get; set; }
 
+        ///// <summary>
+        ///// Approximate number of people in this audience
+        ///// </summary>
+        //[DeserializeAs(Name = "approximate_count")]
+        //[JsonProperty(PropertyName = "approximate_count", ReferenceLoopHandling = ReferenceLoopHandling.Serialize, DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore, ObjectCreationHandling = ObjectCreationHandling.Auto)]
+        //public long? ApproximateCount { get; set; }
+
         /// <summary>
-        /// Approximate number of people in this audience
+        /// Lower bound of the approximate number of people in this audience
         /// </summary>
-        [DeserializeAs(Name = "approximate_count")]
-        [JsonProperty(PropertyName = "approximate_count", ReferenceLoopHandling = ReferenceLoopHandling.Serialize, DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore, ObjectCreationHandling = ObjectCreationHandling.Auto)]
-        public long? ApproximateCount { get; set; }
+        [DeserializeAs(Name = "approximate_count_lower_bound")]
+        [JsonProperty(PropertyName = "approximate_count_lower_bound", ReferenceLoopHandling = ReferenceLoopHandling.Serialize, DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore, ObjectCreationHandling = ObjectCreationHandling.Auto)]
+        public long? ApproximateCountLowerBound { get; set; }
+
+        /// <summary>
+        /// Upper bound of the approximate number of people in this audience
+        /// </summary>
+        [DeserializeAs(Name = "approximate_count_upper_bound")]
+        [JsonProperty(PropertyName = "approximate_count_upper_bound", ReferenceLoopHandling = ReferenceLoopHandling.Serialize, DefaultValueHandling = DefaultValueHandling.Ignore, NullValueHandling = NullValueHandling.Ignore, ObjectCreationHandling = ObjectCreationHandling.Auto)]
+        public long? ApproximateCountUpperBound { get; set; }
 
         /// <summary>
         /// JSON dictionary of type, sub_type to indicate by which method the custom audience was created.

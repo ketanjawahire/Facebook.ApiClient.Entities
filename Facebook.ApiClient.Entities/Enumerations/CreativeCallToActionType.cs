@@ -37,6 +37,16 @@
         USE_APP,
 
         /// <summary>
+        /// CALL
+        /// </summary>
+        CALL,
+
+        /// <summary>
+        /// CALL_ME
+        /// </summary>
+        CALL_ME,
+
+        /// <summary>
         /// INSTALL_MOBILE_APP
         /// </summary>
         INSTALL_MOBILE_APP,
@@ -45,6 +55,11 @@
         /// USE_MOBILE_APP
         /// </summary>
         USE_MOBILE_APP,
+
+        /// <summary>
+        /// MOBILE_DOWNLOAD
+        /// </summary>
+        MOBILE_DOWNLOAD,
 
         /// <summary>
         /// BOOK_TRAVEL
@@ -87,6 +102,16 @@
         CALL_NOW,
 
         /// <summary>
+        /// VISIT_PAGES_FEED
+        /// </summary>
+        VISIT_PAGES_FEED,
+
+        /// <summary>
+        /// CONTACT
+        /// </summary>
+        CONTACT,
+
+        /// <summary>
         /// BUY_NOW
         /// </summary>
         BUY_NOW,
@@ -102,9 +127,19 @@
         GET_OFFER_VIEW,
 
         /// <summary>
+        /// UPDATE_APP
+        /// </summary>
+        UPDATE_APP,
+
+        /// <summary>
         /// GET_DIRECTIONS
         /// </summary>
         GET_DIRECTIONS,
+
+        /// <summary>
+        /// BUY
+        /// </summary>
+        BUY,
 
         /// <summary>
         /// MESSAGE_PAGE
@@ -112,14 +147,29 @@
         MESSAGE_PAGE,
 
         /// <summary>
+        /// DONATE
+        /// </summary>
+        DONATE,
+
+        /// <summary>
         /// SUBSCRIBE
         /// </summary>
         SUBSCRIBE,
 
         /// <summary>
+        /// SAY_THANKS
+        /// </summary>
+        SAY_THANKS,
+
+        /// <summary>
         /// SELL_NOW
         /// </summary>
         SELL_NOW,
+
+        /// <summary>
+        /// SHARE
+        /// </summary>
+        SHARE,
 
         /// <summary>
         /// DONATE_NOW
@@ -135,6 +185,26 @@
         /// CONTACT_US
         /// </summary>
         CONTACT_US,
+
+        /// <summary>
+        /// ORDER_NOW
+        /// </summary>
+        ORDER_NOW,
+
+        /// <summary>
+        /// ADD_TO_CART
+        /// </summary>
+        ADD_TO_CART,
+
+        /// <summary>
+        /// VIDEO_ANNOTATION
+        /// </summary>
+        VIDEO_ANNOTATION,
+
+        /// <summary>
+        /// MOMENTS
+        /// </summary>
+        MOMENTS,
 
         /// <summary>
         /// RECORD_NOW
@@ -162,6 +232,26 @@
         APPLY_NOW,
 
         /// <summary>
+        /// GET_SHOWTIMES
+        /// </summary>
+        GET_SHOWTIMES,
+
+        /// <summary>
+        /// LISTEN_NOW
+        /// </summary>
+        LISTEN_NOW,
+
+        /// <summary>
+        /// WOODHENGE_SUPPORT
+        /// </summary>
+        WOODHENGE_SUPPORT,
+
+        /// <summary>
+        /// SOTTO_SUBSCRIBE
+        /// </summary>
+        SOTTO_SUBSCRIBE,
+
+        /// <summary>
         /// EVENT_RSVP
         /// </summary>
         EVENT_RSVP,
@@ -182,8 +272,38 @@
         BUY_TICKETS,
 
         /// <summary>
+        /// WHATSAPP_MESSAGE
+        /// </summary>
+        WHATSAPP_MESSAGE,
+
+        /// <summary>
+        /// FOLLOW_NEWS_STORYLINE
+        /// </summary>
+        FOLLOW_NEWS_STORYLINE,
+
+        /// <summary>
+        /// SEE_MORE
+        /// </summary>
+        SEE_MORE,
+
+        /// <summary>
+        /// FIND_A_GROUP
+        /// </summary>
+        FIND_A_GROUP,
+
+        /// <summary>
+        /// FIND_YOUR_GROUPS
+        /// </summary>
+        FIND_YOUR_GROUPS,
+
+        /// <summary>
         /// VIEW_INSTAGRAM_PROFILE
         /// </summary>
-        VIEW_INSTAGRAM_PROFILE
+        VIEW_INSTAGRAM_PROFILE,
+
+        /// <summary>
+        /// REQUEST_TIME
+        /// </summary>
+        REQUEST_TIME
     }
 }
