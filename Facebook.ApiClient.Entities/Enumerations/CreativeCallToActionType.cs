@@ -7,34 +7,39 @@
     public enum CreativeCallToActionType
     {
         /// <summary>
-        /// OPEN_LINK
+        /// ADD_TO_CART
         /// </summary>
-        OPEN_LINK,
+        ADD_TO_CART,
 
         /// <summary>
-        /// LIKE_PAGE
+        /// APPLY_NOW
         /// </summary>
-        LIKE_PAGE,
+        APPLY_NOW,
 
         /// <summary>
-        /// SHOP_NOW
+        /// AUDIO_CALL
         /// </summary>
-        SHOP_NOW,
+        AUDIO_CALL,
 
         /// <summary>
-        /// PLAY_GAME
+        /// BOOK_TRAVEL
         /// </summary>
-        PLAY_GAME,
+        BOOK_TRAVEL,
 
         /// <summary>
-        /// INSTALL_APP
+        /// BUY
         /// </summary>
-        INSTALL_APP,
+        BUY,
 
         /// <summary>
-        /// USE_APP
+        /// BUY_NOW
         /// </summary>
-        USE_APP,
+        BUY_NOW,
+
+        /// <summary>
+        /// BUY_TICKETS
+        /// </summary>
+        BUY_TICKETS,
 
         /// <summary>
         /// CALL
@@ -47,64 +52,9 @@
         CALL_ME,
 
         /// <summary>
-        /// INSTALL_MOBILE_APP
-        /// </summary>
-        INSTALL_MOBILE_APP,
-
-        /// <summary>
-        /// USE_MOBILE_APP
-        /// </summary>
-        USE_MOBILE_APP,
-
-        /// <summary>
-        /// MOBILE_DOWNLOAD
-        /// </summary>
-        MOBILE_DOWNLOAD,
-
-        /// <summary>
-        /// BOOK_TRAVEL
-        /// </summary>
-        BOOK_TRAVEL,
-
-        /// <summary>
-        /// LISTEN_MUSIC
-        /// </summary>
-        LISTEN_MUSIC,
-
-        /// <summary>
-        /// LEARN_MORE
-        /// </summary>
-        LEARN_MORE,
-
-        /// <summary>
-        /// SIGN_UP
-        /// </summary>
-        SIGN_UP,
-
-        /// <summary>
-        /// DOWNLOAD
-        /// </summary>
-        DOWNLOAD,
-
-        /// <summary>
-        /// WATCH_MORE
-        /// </summary>
-        WATCH_MORE,
-
-        /// <summary>
-        /// NO_BUTTON
-        /// </summary>
-        NO_BUTTON,
-
-        /// <summary>
         /// CALL_NOW
         /// </summary>
         CALL_NOW,
-
-        /// <summary>
-        /// VISIT_PAGES_FEED
-        /// </summary>
-        VISIT_PAGES_FEED,
 
         /// <summary>
         /// CONTACT
@@ -112,39 +62,9 @@
         CONTACT,
 
         /// <summary>
-        /// BUY_NOW
+        /// CONTACT_US
         /// </summary>
-        BUY_NOW,
-
-        /// <summary>
-        /// GET_OFFER
-        /// </summary>
-        GET_OFFER,
-
-        /// <summary>
-        /// GET_OFFER_VIEW
-        /// </summary>
-        GET_OFFER_VIEW,
-
-        /// <summary>
-        /// UPDATE_APP
-        /// </summary>
-        UPDATE_APP,
-
-        /// <summary>
-        /// GET_DIRECTIONS
-        /// </summary>
-        GET_DIRECTIONS,
-
-        /// <summary>
-        /// BUY
-        /// </summary>
-        BUY,
-
-        /// <summary>
-        /// MESSAGE_PAGE
-        /// </summary>
-        MESSAGE_PAGE,
+        CONTACT_US,
 
         /// <summary>
         /// DONATE
@@ -152,139 +72,19 @@
         DONATE,
 
         /// <summary>
-        /// SUBSCRIBE
-        /// </summary>
-        SUBSCRIBE,
-
-        /// <summary>
-        /// SAY_THANKS
-        /// </summary>
-        SAY_THANKS,
-
-        /// <summary>
-        /// SELL_NOW
-        /// </summary>
-        SELL_NOW,
-
-        /// <summary>
-        /// SHARE
-        /// </summary>
-        SHARE,
-
-        /// <summary>
         /// DONATE_NOW
         /// </summary>
         DONATE_NOW,
 
         /// <summary>
-        /// GET_QUOTE
+        /// DOWNLOAD
         /// </summary>
-        GET_QUOTE,
-
-        /// <summary>
-        /// CONTACT_US
-        /// </summary>
-        CONTACT_US,
-
-        /// <summary>
-        /// ORDER_NOW
-        /// </summary>
-        ORDER_NOW,
-
-        /// <summary>
-        /// ADD_TO_CART
-        /// </summary>
-        ADD_TO_CART,
-
-        /// <summary>
-        /// VIDEO_ANNOTATION
-        /// </summary>
-        VIDEO_ANNOTATION,
-
-        /// <summary>
-        /// MOMENTS
-        /// </summary>
-        MOMENTS,
-
-        /// <summary>
-        /// RECORD_NOW
-        /// </summary>
-        RECORD_NOW,
-
-        /// <summary>
-        /// VOTE_NOW
-        /// </summary>
-        VOTE_NOW,
-
-        /// <summary>
-        /// REGISTER_NOW
-        /// </summary>
-        REGISTER_NOW,
-
-        /// <summary>
-        /// OPEN_MOVIES
-        /// </summary>
-        OPEN_MOVIES,
-
-        /// <summary>
-        /// APPLY_NOW
-        /// </summary>
-        APPLY_NOW,
-
-        /// <summary>
-        /// GET_SHOWTIMES
-        /// </summary>
-        GET_SHOWTIMES,
-
-        /// <summary>
-        /// LISTEN_NOW
-        /// </summary>
-        LISTEN_NOW,
-
-        /// <summary>
-        /// WOODHENGE_SUPPORT
-        /// </summary>
-        WOODHENGE_SUPPORT,
-
-        /// <summary>
-        /// SOTTO_SUBSCRIBE
-        /// </summary>
-        SOTTO_SUBSCRIBE,
+        DOWNLOAD,
 
         /// <summary>
         /// EVENT_RSVP
         /// </summary>
         EVENT_RSVP,
-
-        /// <summary>
-        /// SEE_MENU
-        /// </summary>
-        SEE_MENU,
-
-        /// <summary>
-        /// WATCH_VIDEO
-        /// </summary>
-        WATCH_VIDEO,
-
-        /// <summary>
-        /// BUY_TICKETS
-        /// </summary>
-        BUY_TICKETS,
-
-        /// <summary>
-        /// WHATSAPP_MESSAGE
-        /// </summary>
-        WHATSAPP_MESSAGE,
-
-        /// <summary>
-        /// FOLLOW_NEWS_STORYLINE
-        /// </summary>
-        FOLLOW_NEWS_STORYLINE,
-
-        /// <summary>
-        /// SEE_MORE
-        /// </summary>
-        SEE_MORE,
 
         /// <summary>
         /// FIND_A_GROUP
@@ -297,13 +97,274 @@
         FIND_YOUR_GROUPS,
 
         /// <summary>
-        /// VIEW_INSTAGRAM_PROFILE
+        /// FOLLOW_NEWS_STORYLINE
         /// </summary>
-        VIEW_INSTAGRAM_PROFILE,
+        FOLLOW_NEWS_STORYLINE,
+
+        /// <summary>
+        /// FOLLOW_PAGE
+        /// </summary>
+        FOLLOW_PAGE,
+
+        /// <summary>
+        /// FOLLOW_USER
+        /// </summary>
+        FOLLOW_USER,
+
+        /// <summary>
+        /// GET_DIRECTIONS
+        /// </summary>
+        GET_DIRECTIONS,
+
+        /// <summary>
+        /// GET_OFFER
+        /// </summary>
+        GET_OFFER,
+
+        /// <summary>
+        /// GET_OFFER_VIEW
+        /// </summary>
+        GET_OFFER_VIEW,
+
+        /// <summary>
+        /// GET_QUOTE
+        /// </summary>
+        GET_QUOTE,
+
+        /// <summary>
+        /// GET_SHOWTIMES
+        /// </summary>
+        GET_SHOWTIMES,
+
+        /// <summary>
+        /// GET_STARTED
+        /// </summary>
+        GET_STARTED,
+
+        /// <summary>
+        /// INSTALL_APP
+        /// </summary>
+        INSTALL_APP,
+
+        /// <summary>
+        /// INSTALL_MOBILE_APP
+        /// </summary>
+        INSTALL_MOBILE_APP,
+
+        /// <summary>
+        /// LEARN_MORE
+        /// </summary>
+        LEARN_MORE,
+
+        /// <summary>
+        /// LIKE_PAGE
+        /// </summary>
+        LIKE_PAGE,
+
+        /// <summary>
+        /// LISTEN_MUSIC
+        /// </summary>
+        LISTEN_MUSIC,
+
+        /// <summary>
+        /// LISTEN_NOW
+        /// </summary>
+        LISTEN_NOW,
+
+        /// <summary>
+        /// MESSAGE_PAGE
+        /// </summary>
+        MESSAGE_PAGE,
+
+        /// <summary>
+        /// MOBILE_DOWNLOAD
+        /// </summary>
+        MOBILE_DOWNLOAD,
+
+        /// <summary>
+        /// MOMENTS
+        /// </summary>
+        MOMENTS,
+
+        /// <summary>
+        /// NO_BUTTON
+        /// </summary>
+        NO_BUTTON,
+
+        /// <summary>
+        /// OPEN_INSTANT_APP
+        /// </summary>
+        OPEN_INSTANT_APP,
+
+        /// <summary>
+        /// OPEN_LINK
+        /// </summary>
+        OPEN_LINK,
+
+        /// <summary>
+        /// ORDER_NOW
+        /// </summary>
+        ORDER_NOW,
+
+        /// <summary>
+        /// PAY_TO_ACCESS
+        /// </summary>
+        PAY_TO_ACCESS,
+
+        /// <summary>
+        /// PLAY_GAME
+        /// </summary>
+        PLAY_GAME,
+
+        /// <summary>
+        /// PLAY_GAME_ON_FACEBOOK
+        /// </summary>
+        PLAY_GAME_ON_FACEBOOK,
+
+        /// <summary>
+        /// PURCHASE_GIFT_CARDS
+        /// </summary>
+        PURCHASE_GIFT_CARDS,
+
+        /// <summary>
+        /// RAISE_MONEY
+        /// </summary>
+        RAISE_MONEY,
+
+        /// <summary>
+        /// RECORD_NOW
+        /// </summary>
+        RECORD_NOW,
+
+        /// <summary>
+        /// REFER_FRIENDS
+        /// </summary>
+        REFER_FRIENDS,
 
         /// <summary>
         /// REQUEST_TIME
         /// </summary>
-        REQUEST_TIME
-    }
+        REQUEST_TIME,
+
+        /// <summary>
+        /// SAY_THANKS
+        /// </summary>
+        SAY_THANKS,
+
+        /// <summary>
+        /// SEE_MORE
+        /// </summary>
+        SEE_MORE,
+
+        /// <summary>
+        /// SELL_NOW
+        /// </summary>
+        SELL_NOW,
+
+        /// <summary>
+        /// SEND_A_GIFT
+        /// </summary>
+        SEND_A_GIFT,
+
+        /// <summary>
+        /// SEND_GIFT_MONEY
+        /// </summary>
+        SEND_GIFT_MONEY,
+
+        /// <summary>
+        /// SEND_UPDATES
+        /// </summary>
+        SEND_UPDATES,
+
+        /// <summary>
+        /// SHARE
+        /// </summary>
+        SHARE,
+
+        /// <summary>
+        /// SHOP_NOW
+        /// </summary>
+        SHOP_NOW,
+
+        /// <summary>
+        /// SIGN_UP
+        /// </summary>
+        SIGN_UP,
+
+        /// <summary>
+        /// SOTTO_SUBSCRIBE
+        /// </summary>
+        SOTTO_SUBSCRIBE,
+
+        /// <summary>
+        /// START_ORDER
+        /// </summary>
+        START_ORDER,
+
+        /// <summary>
+        /// SUBSCRIBE
+        /// </summary>
+        SUBSCRIBE,
+
+        /// <summary>
+        /// SWIPE_UP_PRODUCT
+        /// </summary>
+        SWIPE_UP_PRODUCT,
+
+        /// <summary>
+        /// SWIPE_UP_SHOP
+        /// </summary>
+        SWIPE_UP_SHOP,
+
+        /// <summary>
+        /// UPDATE_APP
+        /// </summary>
+        UPDATE_APP,
+
+        /// <summary>
+        /// USE_APP
+        /// </summary>
+        USE_APP,
+
+        /// <summary>
+        /// USE_MOBILE_APP
+        /// </summary>
+        USE_MOBILE_APP,
+
+        /// <summary>
+        /// VIDEO_ANNOTATION
+        /// </summary>
+        VIDEO_ANNOTATION,
+
+        /// <summary>
+        /// VIDEO_CALL
+        /// </summary>
+        VIDEO_CALL,
+
+        /// <summary>
+        /// VISIT_PAGES_FEED
+        /// </summary>
+        VISIT_PAGES_FEED,
+
+        /// <summary>
+        /// WATCH_MORE
+        /// </summary>
+        WATCH_MORE,
+
+        /// <summary>
+        /// WATCH_VIDEO
+        /// </summary>
+        WATCH_VIDEO,
+
+        /// <summary>
+        /// WHATSAPP_MESSAGE
+        /// </summary>
+        WHATSAPP_MESSAGE,
+
+        /// <summary>
+        /// WOODHENGE_SUPPORT
+        /// </summary>
+        WOODHENGE_SUPPORT
+
+  }
 }
