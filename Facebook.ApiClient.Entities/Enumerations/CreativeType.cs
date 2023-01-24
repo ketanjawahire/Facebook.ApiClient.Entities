@@ -6,9 +6,9 @@
     public enum CreativeType
     {
         /// <summary>
-        /// Page
+        /// app on Facebook
         /// </summary>
-        PAGE,
+        APPLICATION,
 
         /// <summary>
         /// Domain
@@ -21,9 +21,9 @@
         EVENT,
 
         /// <summary>
-        ///  refers to an iTunes or Google Play store destination
+        /// when an invalid object_id was specified such as a deleted object or if you do not have permission to see the object. In very few cases, this field may be empty if Facebook is unable to identify the type of advertised object
         /// </summary>
-        STORE_ITEM,
+        INVALID,
 
         /// <summary>
         /// Offer
@@ -31,9 +31,9 @@
         OFFER,
 
         /// <summary>
-        /// Share from a page
+        /// Page
         /// </summary>
-        SHARE,
+        PAGE,
 
         /// <summary>
         /// Photo
@@ -41,24 +41,9 @@
         PHOTO,
 
         /// <summary>
-        /// status of a page
+        /// Post deleted
         /// </summary>
-        STATUS,
-
-        /// <summary>
-        /// VIdeo
-        /// </summary>
-        VIDEO,
-
-        /// <summary>
-        /// app on Facebook
-        /// </summary>
-        APPLICATION,
-
-        /// <summary>
-        /// when an invalid object_id was specified such as a deleted object or if you do not have permission to see the object. In very few cases, this field may be empty if Facebook is unable to identify the type of advertised object
-        /// </summary>
-        INVALID,
+        POST_DELETED,
 
         /// <summary>
         /// Privacy check fail
@@ -66,8 +51,24 @@
         PRIVACY_CHECK_FAIL,
 
         /// <summary>
-        /// Post deleted
+        /// Share from a page
         /// </summary>
-        POST_DELETED
+        SHARE,
+
+        /// <summary>
+        /// status of a page
+        /// </summary>
+        STATUS,
+
+        /// <summary>
+        ///  refers to an iTunes or Google Play store destination
+        /// </summary>
+        STORE_ITEM,
+
+        /// <summary>
+        /// VIdeo
+        /// </summary>
+        VIDEO
+
     }
 }
