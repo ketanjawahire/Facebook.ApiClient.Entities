@@ -6,6 +6,21 @@
     public enum CampaignObjective
     {
         /// <summary>
+        /// NONE
+        /// </summary>
+        NONE,
+
+        /// <summary>
+        /// APP_INSTALLS
+        /// </summary>
+        APP_INSTALLS,
+
+        /// <summary>
+        /// BRAND_AWARENESS
+        /// </summary>
+        BRAND_AWARENESS,
+
+        /// <summary>
         /// CANVAS_APP_ENGAGEMENT
         /// </summary>
         CANVAS_APP_ENGAGEMENT,
@@ -46,6 +61,11 @@
         LOCAL_AWARENESS,
 
         /// <summary>
+        /// MESSAGES
+        /// </summary>
+        MESSAGES,
+
+        /// <summary>
         /// MOBILE_APP_ENGAGEMENT
         /// </summary>
         MOBILE_APP_ENGAGEMENT,
@@ -61,14 +81,29 @@
         OFFER_CLAIMS,
 
         /// <summary>
+        /// OUTCOME_APP_PROMOTION
+        /// </summary>
+        OUTCOME_APP_PROMOTION,
+
+        /// <summary>
         /// OUTCOME_AWARENESS
         /// </summary>
         OUTCOME_AWARENESS,
 
         /// <summary>
+        /// OUTCOME_ENGAGEMENT
+        /// </summary>
+        OUTCOME_ENGAGEMENT,
+
+        /// <summary>
         /// OUTCOME_LEADS
         /// </summary>
         OUTCOME_LEADS,
+
+        /// <summary>
+        /// OUTCOME_SALES
+        /// </summary>
+        OUTCOME_SALES,
 
         /// <summary>
         /// OUTCOME_TRAFFIC
@@ -91,9 +126,9 @@
         PRODUCT_CATALOG_SALES,
 
         /// <summary>
-        /// VIDEO_VIEWS
+        /// REACH
         /// </summary>
-        VIDEO_VIEWS,
+        REACH,
 
         /// <summary>
         /// STORE_VISITS
@@ -101,18 +136,9 @@
         STORE_VISITS,
 
         /// <summary>
-        /// NONE
+        /// VIDEO_VIEWS
         /// </summary>
-        NONE,
+        VIDEO_VIEWS
 
-        /// <summary>
-        /// BRAND_AWARENESS
-        /// </summary>
-        BRAND_AWARENESS,
-
-        /// <summary>
-        /// APP_INSTALLS
-        /// </summary>
-        APP_INSTALLS
     }
 }
